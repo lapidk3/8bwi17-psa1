@@ -1,0 +1,32 @@
+/** 
+ * Name: Kenneth Lapid David, cs8bwans
+ * Date: January 11th, 2017
+ * */
+
+Method p1:
+
+The test cases that I believed were most worthy to test were ones that led to
+a Null Pointer Exception because there were many instances in which this
+method could lead to a Null Pointer Exception. The program's behavior was
+technically correct because it did not actually return an anagram to us with
+passed null references but it crashes the program which is something that we
+want to try to avoid. It would be better if the program noticed the
+null reference and immediately terminated the method rather than crashing the
+program altogether
+
+
+
+Method p2:
+The edge case most worthy of testing here would have to be the array index out
+of bounds cases since we are working with arrays which are indexed at certain
+values. In these cases the program's behavior was correct for not continuing
+the method over illegal indices because we only want to access the indices of
+the array which exist but again, it would be better to have our
+program print out error messages rather than crash altogether. 
+
+Method p3:
+The test case in which I believe is the most important would have to be 
+the capacity of the int value. Not all values of int will work for this
+particular method because once a large int value is inputed the capacity
+will overflow. This really isn't correct behavior because we expect the
+method to work for any inputed int value. 

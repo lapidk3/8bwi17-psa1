@@ -1,0 +1,28 @@
+/** 
+ * Name: Kenneth Lapid David, cs8bwans
+ * Date: January 11th, 2017
+ * */
+
+1.Trial1:
+   EncryptTwo - 1m6.920s
+   Encrypt - 1m30.951s
+
+Trial2:
+   EncryptTwo - 1m6.932s
+   Encrypt - 1m32.821s
+
+Trial 3:
+   EncryptTwo - 1m7.089s
+   Encrypt - 1m31.427s
+
+2. Strings objects are immutable meaning that once they are created
+their value cannot be changed. If one wanted to concatenate two strings
+a new String object would have to be created, taking up more memory/space.
+On the other Stringbuilders aren't immutable. You can add characters and
+strings to a stringbuilder without having to create new objects. The
+characters/strings will simple be added too the stringbuilder itself, saving
+more space in the heap.
+
+3. It was definitely easier and faster to code part B in contrast to part
+A because they both had similar code impementations, but it was easier to 
+add characters to the Stringbuilder object rather than the String object.

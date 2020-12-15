@@ -1,0 +1,38 @@
+/** 
+ * Name: Kenneth Lapid David, cs8bwans
+ * Date: January 11th, 2017
+ * */
+
+A: Fields
+These are fields of the class Class1, they describe what each instance oof
+Class1 will contain. In this case an int value, "a" and an integer value "b"
+
+B: Constructor
+When creating an object of Class1 the use of a constructor will be needed.
+In this case we have a no argument constructor(meaning it doesn't take any
+parameter values) that will initialize the field a to 5 and the field b to 5
+
+C: Method
+This is a public method meaning it can be accessed by all classes and it
+returns a variable of type int
+
+D: Parameters 
+These are the inputs of Method1 which includes variable a of type int,
+variable b of type char, and variable c of type integer in that order.
+
+E: Arguments
+These are the specific data that is entered into Method1 when it is called.
+The types and order of the data match with the parameters of Method1.
+
+F: Method Call
+Non-static call to the method Method1, written in class1. Non-static meaning
+it is called upon name, an instance of Class1, rather than the Class itself.
+
+
+Why are C and F matched up?
+- In part C, we've created the method and wrote the method definition for
+  Method1 under the class Class1 then under the main method we call upon
+  Method1 with name, an object of Class1 (this is possible because Method1
+  is public). Java is able to identify and connect the two because the call
+  to Method1 under the main method uses arguments that match with the 
+  parameters of Method1. 
